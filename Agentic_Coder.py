@@ -147,9 +147,10 @@ class AgenticCoder:
 
 # Example usage
 agent = AgenticCoder(
-    openrouter_api_key="",
+    openrouter_api_key="<your-key-here>",
     site_url="https://your-site.com",
     site_name="Your Agentic Coder"
 )
 result = agent.run("Create a Python function to calculate Fibonacci numbers")
+
 print(json.dumps(result, indent=2))
