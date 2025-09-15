@@ -147,7 +147,7 @@ class AgenticCoder:
 
 # Example usage
 agent = AgenticCoder(
-    openrouter_api_key="your-openrouter-api-key",
+    openrouter_api_key="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",
     site_url="https://your-site.com",
     site_name="Your Agentic Coder"
 )
